@@ -17,7 +17,7 @@ for msg in st.session_state.chat_history:
     st.chat_message(msg["role"]).write(msg["message"])
 
 # Eingabefeld
-chat_input = st.chat_input("Frag etwas zu deinen BigQuery-Daten...")
+chat_input = st.chat_input("Stell eine Frage zu Covid-19 Daten...")
 
 # Neue Nachricht senden
 if chat_input:
